@@ -1,0 +1,17 @@
+async / await 가 어떻게 해서 개발되었는가
+
+setTimeout 대신 서버에 request 를 하는 실제 상황에서 실습
+  - restcountries.com/v2/all 에 countryCode 를 보내면 name 을 받음
+
+callback function 을 사용하여 어떻게 비동기 처리를 하는가
+  - 난독성 문제 (callback hell)
+
+promise / then 으로 해결
+  - chaining
+
+async / await 등장
+
+
+closure - outer function 이 끝났어도 outer scope 변수 기억
+closure 가 capture 해서 heap 에 특별구조를 만들어 저장.
+stack 에서 제거되어도 heap 에 저장시킨 reference 로 outer 변수 접근

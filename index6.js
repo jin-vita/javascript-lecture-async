@@ -1,0 +1,5 @@
+console.log('program start')
+getData('KR')
+    .then(result => console.log('fetch fetched ->', result.name))
+    .catch(error => console.log('fetch error ->', error))
+console.log('program end')
